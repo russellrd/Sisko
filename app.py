@@ -35,6 +35,7 @@ if __name__ == "__main__":
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                print("Sisko: Bye!")
                 running = False
         screen.fill((100, 100, 0))
         sisko.update()
